@@ -9,9 +9,13 @@
 	border-style:solid;
 	cursor: default;
 }
+.metro-tile.metro-tile-small {
+	width: 104px;
+	height:104px;
+}
 .metro-tile-orange {background-color:#FF7D23; border-color:#FF7D23;}
 .metro-tile-green {background-color:#009719; border-color:#009719;}
-.tile_reset {width: 232px; height: 112px; -webkit-transform: perspective(400px) rotateY(0deg) rotateX(0deg)}
+.tile_reset {-webkit-transform: perspective(400px) rotateY(0deg) rotateX(0deg)}
 .tile_left {-webkit-transform: perspective(400px) rotateY(-12deg)}
 .tile_right {-webkit-transform: perspective(400px) rotateY(12deg)}
 .tile_top {-webkit-transform: perspective(400px) rotateX(12deg)}
