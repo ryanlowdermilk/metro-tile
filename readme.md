@@ -42,4 +42,5 @@ Click [here](http://ryanlowdermilk.com/metro-tile/example.html "Live Demo") for 
 
 ### Coming Soon...
  * Knockout.js and ASP.NET Web API data binding support
- * Auto flip animation
+ * Front and Back Tile support w/ flip animation
+ * Auto Flip on data binding update
