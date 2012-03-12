@@ -39,5 +39,5 @@ $(function () {
 		$(".metro-tile").removeClass("tile_middle");
 		$(".metro-tile").addClass("tile_reset");
 		return false;
-	});
-});         
+});
+});
