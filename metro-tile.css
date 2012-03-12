@@ -1,26 +1,43 @@
 .metro-tile {
-	background-color:#FF7D23;
+	background-color: #D8512B;
+	border-color: #DC6241;
 	width: 232px;
-	height:112px;
+	height: 104px;
 	padding: 5px;
-	color:white;
-	font-family:sans-serif;
-	font-size:12px;
-	border-width:3px;
-	border-style:solid;
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 12px;
+	border-width: 3px;
+	border-style: solid;
 	cursor: default;
 }
-.metro-tile.metro-tile-small {
+.metro-tile-small {
 	width: 104px;
-	height:104px;
+	height: 104px;
 }
 .metro-tile-orange {
-	background-color:#FF7D23;
-	border-color:#FF7D23;
+	background-color: #D8512B;
+	border-color: #DC6241;
 }
 .metro-tile-green {
-	background-color:#009719;
-	border-color:#009719;
+	background-color: #009719;
+	border-color: #1A9F30;
+}
+.metro-tile-blue {
+	background-color: #2878EC;
+	border-color: #4396F1;
+}
+.metro-tile-purple {
+	background-color: #5636B0;
+	border-color: #6449B5;	
+}
+.metro-tile-pink {
+	background-color: #BD1E4A;
+	border-color: #B93154;	
+}
+.metro-tile-xbox-green {
+	background-color: #6CB71E;
+	border-color: #7ABD34;	
 }
 .tile_reset {
 	-webkit-transform: perspective(400px) rotateY(0deg) rotateX(0deg)
