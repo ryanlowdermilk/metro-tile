@@ -20,12 +20,6 @@ $(function () {
 		else if (bottom) $(this).addClass("tile_bottom");
 		else if (top) $(this).addClass("tile_top");
 		else if (middle) $(this).addClass("tile_middle");
-		console.log('x:' + x + ', y:' + y + ', h:' + height + ', w:' + width + ', wp' + wp + ', hp' + hp);
-		console.log('left:' + left);
-		console.log('right:' + right);
-		console.log('top:' + top);
-		console.log('bottom:' + bottom);
-		console.log('middle:' + middle);
 		return false;
 	});
 });
