@@ -40,22 +40,40 @@
 	border-color: #7ABD34;	
 }
 .tile_reset {
-	-webkit-transform: perspective(400px) rotateY(0deg) rotateX(0deg)
+	-webkit-transform: perspective(400px) rotateY(0deg) rotateX(0deg);
+	-moz-transform: perspective(400px) rotateY(0deg) rotateX(0deg);
+	-ms-transform: perspective(400px) rotateY(0deg) rotateX(0deg);
+	transform: perspective(400px) rotateY(0deg) rotateX(0deg);
 }
 .tile_left {
-	-webkit-transform: perspective(400px) rotateY(-12deg)
+	-webkit-transform: perspective(400px) rotateY(-12deg);
+	-moz-transform: perspective(400px) rotateY(-12deg);
+	-ms-transform: perspective(400px) rotateY(-12deg);
+	transform: perspective(400px) rotateY(-12deg);
 }
 .tile_right {
-	-webkit-transform: perspective(400px) rotateY(12deg)
+	-webkit-transform: perspective(400px) rotateY(12deg);
+	-moz-transform: perspective(400px) rotateY(12deg);
+	-ms-transform: perspective(400px) rotateY(12deg);
+	transform: perspective(400px) rotateY(12deg);
 }
 .tile_top {
-	-webkit-transform: perspective(400px) rotateX(12deg)
+	-webkit-transform: perspective(400px) rotateX(12deg);
+	-moz-transform: perspective(400px) rotateX(12deg);
+	-ms-transform: perspective(400px) rotateX(12deg);
+	transform: perspective(400px) rotateX(12deg);
 }
 .tile_bottom {
-	-webkit-transform: perspective(400px) rotateX(-12deg)
+	-webkit-transform: perspective(400px) rotateX(-12deg);
+	-moz-transform: perspective(400px) rotateX(-12deg);
+	-ms-transform: perspective(400px) rotateX(-12deg);
+	transform: perspective(400px) rotateX(-12deg);
 }
 .tile_middle {
 	-webkit-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	-moz-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	-ms-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
 	border-width: 3px;
 	border-style:solid; 
 }
