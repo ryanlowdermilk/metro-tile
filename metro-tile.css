@@ -10,6 +10,10 @@
 	border-width: 3px;
 	border-style: solid;
 	cursor: default;
+	-webkit-transition: 0.1s all;
+	-moz-transition: 0.1s all;
+	-ms-transition: 0.1s all;
+	transition: 0.1s all;
 }
 .metro-tile-small {
 	width: 104px;
@@ -46,28 +50,44 @@
 	transform: perspective(400px) rotateY(0deg) rotateX(0deg);
 }
 .tile_left {
-	-webkit-transform: perspective(400px) rotateY(-12deg);
-	-moz-transform: perspective(400px) rotateY(-12deg);
-	-ms-transform: perspective(400px) rotateY(-12deg);
-	transform: perspective(400px) rotateY(-12deg);
+	-webkit-transform: perspective(400px) rotateY(-9deg);
+	-moz-transform: perspective(400px) rotateY(-9deg);
+	-ms-transform: perspective(400px) rotateY(-9deg);
+	transform: perspective(400px) rotateY(-9deg);
+	-webkit-transform-origin: 100% 50%;
+	-moz-transform-origin: 100% 50%;
+	-ms-transform-origin: 100% 50%;
+	transform-origin: 100% 50%;
 }
 .tile_right {
-	-webkit-transform: perspective(400px) rotateY(12deg);
-	-moz-transform: perspective(400px) rotateY(12deg);
-	-ms-transform: perspective(400px) rotateY(12deg);
-	transform: perspective(400px) rotateY(12deg);
+	-webkit-transform: perspective(400px) rotateY(9deg);
+	-moz-transform: perspective(400px) rotateY(9deg);
+	-ms-transform: perspective(400px) rotateY(9deg);
+	transform: perspective(400px) rotateY(9deg);
+	-webkit-transform-origin: 0% 50%;
+	-moz-transform-origin: 0% 50%;
+	-ms-transform-origin: 0% 50%;
+	transform-origin: 0% 50%;
 }
 .tile_top {
-	-webkit-transform: perspective(400px) rotateX(12deg);
-	-moz-transform: perspective(400px) rotateX(12deg);
-	-ms-transform: perspective(400px) rotateX(12deg);
-	transform: perspective(400px) rotateX(12deg);
+	-webkit-transform: perspective(400px) rotateX(9deg);
+	-moz-transform: perspective(400px) rotateX(9deg);
+	-ms-transform: perspective(400px) rotateX(9deg);
+	transform: perspective(400px) rotateX(9deg);
+	-webkit-transform-origin: 50% 100%;
+	-moz-transform-origin: 50% 100%;
+	-ms-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
 }
 .tile_bottom {
-	-webkit-transform: perspective(400px) rotateX(-12deg);
-	-moz-transform: perspective(400px) rotateX(-12deg);
-	-ms-transform: perspective(400px) rotateX(-12deg);
-	transform: perspective(400px) rotateX(-12deg);
+	-webkit-transform: perspective(400px) rotateX(-9deg);
+	-moz-transform: perspective(400px) rotateX(-9deg);
+	-ms-transform: perspective(400px) rotateX(-9deg);
+	transform: perspective(400px) rotateX(-9deg);
+	-webkit-transform-origin: 50% 0%;
+	-moz-transform-origin: 50% 0%;
+	-ms-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
 }
 .tile_middle {
 	-webkit-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
