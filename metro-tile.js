@@ -22,9 +22,7 @@ jQuery(function () {
 		else if (middle) jQuery(this).addClass("tile_middle");
 		return false;
 	});
-});
-
-jQuery(function () {
+	
 	jQuery(".metro-surface").mouseup(function (x) {
 		jQuery(".metro-tile").removeClass("tile_left");
 		jQuery(".metro-tile").removeClass("tile_right");
@@ -33,5 +31,5 @@ jQuery(function () {
 		jQuery(".metro-tile").removeClass("tile_middle");
 		jQuery(".metro-tile").addClass("tile_reset");
 		return false;
-});
+	});
 });
