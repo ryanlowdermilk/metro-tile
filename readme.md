@@ -1,9 +1,6 @@
 ## metro-tile
 
 A simple javascript UI library which creates Windows 8 Metro Tiles using CSS3
-### Live Demo
-Click [here](http://ryanlowdermilk.com/metro-tile/example.html "Live Demo") for a live demo (*Safari or Chrome required*)
-
 
 ### Getting started
 
